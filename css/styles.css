@@ -1,36 +1,36 @@
 body {
   font-family: 'Roboto', sans-serif;
-
   font-style: normal;
+  letter-spacing: 0.02em;
 }
 a,
 li {
   list-style-type: none;
   text-decoration: none;
 }
-<!------------header---------- > .logotype {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
-}
-.logo {
+
+<!-----------------------------------header----------------------- > .logotype,
+.logotype * {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  color: #4d5ae5;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color: #2e2f42;
+}
+.logo-left {
+  color: #4d5ae5;
+}
+.logo-right {
+  color: #2e2f42;
 }
 
 .link-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
 }
@@ -67,12 +67,19 @@ li {
 .contact-mail:focus {
   color: #404bbf;
 }
-<!--------------hero--------------- > .idea {
+.contact-number:hover,
+.contact-number:focus {
+  color: #404bbf;
+}
+<!--------------hero---------------------------------------------- > .hero {
+  background: #2e2f42;
+}
+.title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
+
   color: #ffffff;
   background: #2e2f42;
 }
@@ -91,12 +98,34 @@ li {
 .btn:focus {
   background: #404bbf;
 }
+.potfolio-button {
+  background: #f4f4fd;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #4d5ae5;
+}
+.potfolio-button:hover {
+  background: #404bbf;
+  color: #ffffff;
+}
+.potfolio-button:focus {
+  background: #404bbf;
+  color: #ffffff;
+}
 .list-menu,
 .portfolio-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+
   color: #2e2f42;
 }
 .text-menu,
@@ -104,14 +133,12 @@ li {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 .project .team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
@@ -122,14 +149,12 @@ li {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .profession {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 .footer-content {
@@ -154,6 +179,5 @@ li {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #e7e9fc;
 }
