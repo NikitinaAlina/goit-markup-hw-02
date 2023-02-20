@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   letter-spacing: 0.02em;
+  font-weight: 400;
 }
 a,
 li {
@@ -26,7 +27,6 @@ li {
 .logo-right {
   color: #2e2f42;
 }
-
 .link-item {
   font-weight: 500;
   font-size: 16px;
@@ -53,11 +53,9 @@ li {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .contact-mail,
 .contact-number {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -79,7 +77,6 @@ li {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-
   color: #ffffff;
   background: #2e2f42;
 }
@@ -109,7 +106,6 @@ li {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-
   color: #4d5ae5;
 }
 .potfolio-button:hover {
@@ -130,7 +126,6 @@ li {
 }
 .text-menu,
 .portfolio-menu {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
@@ -152,7 +147,6 @@ li {
   color: #2e2f42;
 }
 .profession {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
@@ -176,7 +170,6 @@ li {
   color: #4d5ae5;
 }
 .text-footer {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #e7e9fc;
