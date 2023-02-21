@@ -133,7 +133,9 @@ li {
   line-height: 1.11;
   text-transform: capitalize;
   color: #2e2f42;
-  background: #e5e5e5;
+}
+.team {
+  background: #f4f4fd;
 }
 .team-content {
   background: #f4f4fd;
