@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-size: 16px;
   letter-spacing: 0.02em;
   font-weight: 400;
   line-height: 1.5;
@@ -11,7 +12,8 @@ li {
   text-decoration: none;
 }
 
-<!-----------------------------------header----------------------- > .logotype,
+/* ------logo----------*/
+.logotype,
 .logotype * {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -30,7 +32,6 @@ li {
 }
 .link-item {
   font-weight: 500;
-  font-size: 16px;
   color: #2e2f42;
   text-decoration: none;
 }
@@ -56,8 +57,6 @@ li {
 .contact-mail,
 .contact-number {
   font-style: normal;
-  font-size: 16px;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 .contact-mail:hover,
@@ -68,7 +67,8 @@ li {
 .contact-number:focus {
   color: #404bbf;
 }
-<!--------------hero---------------------------------------------- > .hero {
+/* -------------------hero-----------------------*/
+.hero {
   background: #2e2f42;
 }
 .title {
@@ -77,9 +77,10 @@ li {
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
-  background: #2e2f42;
 }
 .btn {
+  font-family: inherit;
+  line-height: 1.5;
   font-weight: 500;
   font-size: 16px;
   display: flex;
@@ -94,8 +95,10 @@ li {
   background: #404bbf;
 }
 .potfolio-button {
+  font-family: inherit;
+  line-height: 1.5;
+  cursor: pointer;
   background: #f4f4fd;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -118,12 +121,10 @@ li {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-
   color: #2e2f42;
 }
 .text-menu,
 .portfolio-menu {
-  font-size: 16px;
   color: #434455;
 }
 .project .team {
@@ -132,6 +133,7 @@ li {
   line-height: 1.11;
   text-transform: capitalize;
   color: #2e2f42;
+  background: #e5e5e5;
 }
 .team-content {
   background: #f4f4fd;
@@ -143,7 +145,6 @@ li {
   color: #2e2f42;
 }
 .profession {
-  font-size: 16px;
   color: #434455;
 }
 .footer-content {
@@ -165,6 +166,5 @@ li {
   color: #4d5ae5;
 }
 .text-footer {
-  font-size: 16px;
   color: #e7e9fc;
 }
